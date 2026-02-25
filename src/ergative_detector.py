@@ -9,7 +9,6 @@ from collections import defaultdict
 import stanza
 from pythonjsonlogger import jsonlogger
 
-logger = logging.getLogger(__name__)
 
 def read_data(infile):
 	"""
