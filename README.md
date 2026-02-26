@@ -11,7 +11,7 @@ pip install requirements.txt
 You must also download the Stanza's neural pipeline for Urdu.
 
 ```python
->>> stanza.download('en')
+>>> stanza.download('ur')
 ```
 
 # Augmented Data
@@ -21,15 +21,16 @@ The detector was evaluated on a VOL/NVOL dataset created using a context-free gr
 
 # Evaluation
 
-Overall: 0.84
+```
+  Accuracy: 0.845 [1804 / 2136]
+  Macro-f1: 0.909
+  Micro-f1: 0.916
 
-Volitional Accuracy:
-`Accuracy: 0.82 [901 / 1096]`
+  Volitional Accuracy: 0.82 [901 / 1096]
+  Non-volitional Accuracy: 0.87 [903 / 1040]
+```
 
-Non-volitional Accuracy:
-`Accuracy: 0.87 [903 / 1040]`
-
-TODO Error analysis, coverage, f1
+TODO Error analysis, coverage (?)
 
 # Citations & Papers
 ```
